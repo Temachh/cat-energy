@@ -10,4 +10,67 @@
   font-weight: 500;
   src: url(../fonts/oswaldmedium.woff2) format(woff2), url(../fonts/oswaldmedium.woff) format(woff);
 }
+body {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 auto;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-nav__list {
+  margin: 0 auto;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.header-nav__item {
+  padding-bottom: 25px;
+  padding-top: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-nav__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.page-main__promo_wrapper {
+  background: url(/img/backgrounds/index-background.png) rgba(104, 183, 56, 0.85);
+  background-blend-mode: overlay;
+}
+
+.page-main__promo-title {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding: 25px 25px;
+}
+
+.page-main__promo-slogan {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  padding-bottom: 30px;
+}
+
+.button {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #68B738;
+}
 /*# sourceMappingURL=style.css.map */

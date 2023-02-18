@@ -1,2 +1,10 @@
 // Global
-@import "fonts.scss"
+@import "global/fonts.scss";
+@import "global/global.scss";
+@import "global/variables.scss";
+
+//Blocks
+@import "blocks/nav-list.scss";
+@import "blocks/nav-item.scss";
+@import "blocks/main-promo.scss";
+@import "blocks/btn.scss";

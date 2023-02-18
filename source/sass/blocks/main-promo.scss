@@ -1,0 +1,19 @@
+.page-main__promo_wrapper {
+    background:  url(/img/backgrounds/index-background.png)  $lightgreen;
+    background-blend-mode: overlay;
+}
+.page-main__promo-title {
+    color: $white;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding: 25px 25px;
+    }
+    .page-main__promo-slogan {
+    color: $white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 30px;
+    }
