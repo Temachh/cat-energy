@@ -2,5 +2,7 @@
     color: $white;
     text-decoration: none;
     background-color: $green;
-    display: block;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
 }

@@ -76,7 +76,9 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   background-color: #68B738;
-  display: block;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
 }
 
 .section-catalog {
@@ -200,5 +202,150 @@ body {
 
 .footer-social__list {
   list-style-type: none;
+}
+
+.page__footer {
+  background-color: #f2f2f2;
+}
+
+.catalog-list {
+  list-style-type: none;
+}
+
+.item__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+}
+
+.item__stats {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.show-more__text_large {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.show-more__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.show-more-button {
+  background-color: #f2f2f2;
+  color: #444444;
+}
+
+.aditionally__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.additionaly__list {
+  list-style-type: none;
+}
+
+.additionaly_name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #111111;
+}
+
+.additinally__stats {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+.gift-section {
+  background: url(/img/backgrounds/gift-cat.png) rgba(104, 183, 56, 0.85);
+  background-blend-mode: overlay;
+}
+
+.promo-section__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo-section__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.form-section__list {
+  list-style-type: none;
+}
+
+.data-list {
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.item-input::placeholder {
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 16px;
+  color: #444444;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+.target-name__meaning {
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.form-group--owner__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.form--owner__list {
+  list-style-type: none;
+}
+
+.item-name__meaning {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.form-group--comment__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.text-area {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+  font-family: inherit;
 }
 /*# sourceMappingURL=style.css.map */

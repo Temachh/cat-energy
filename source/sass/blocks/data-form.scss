@@ -1,0 +1,19 @@
+.form-section__list {
+    list-style-type: none;
+}
+.data-list {
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $darkgrey-text;
+}
+.item-input::placeholder {
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    color: $darkgrey-text;
+    font-family: inherit;
+    text-transform: uppercase;
+
+}
