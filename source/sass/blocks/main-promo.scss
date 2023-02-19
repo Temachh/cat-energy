@@ -1,6 +1,10 @@
 .page-main__promo_wrapper {
     background:  url(/img/backgrounds/index-background.png)  $lightgreen;
     background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
 }
 .page-main__promo-title {
     color: $white;
@@ -16,4 +20,5 @@
     font-size: 14px;
     line-height: 14px;
     padding-bottom: 30px;
+    text-align: center;
     }
